@@ -33,7 +33,7 @@ Callbacks are very similar to [Hooks][hooks], but always bound to a specific DCA
 <tr>
   <td>onsubmit_callback</td>
   <td>Is executed when a back end form is submitted. Allows you to e.g. modify
-      the form data before it is written to the database (used to calculate
+      the form data after it is written to the database (used to calculate
       intervals in the calendar extension).</td>
 </tr>
 <tr>
